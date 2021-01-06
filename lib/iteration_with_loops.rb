@@ -9,7 +9,11 @@ def find_even_values(src)
     while inner_counter < src[outer_counter][inner_counter].size do
       if (src[outer_counter][inner_counter] % 2 == 0)
         even_arr.push(src[outer_counter][inner_counter])
-        
-      
+      end
+      inner_counter += 1
+    end
+    outer_counter += 1
+  end
+  even_arr    
 
 end
