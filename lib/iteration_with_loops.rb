@@ -14,6 +14,6 @@ def find_even_values(src)
     end
     outer_counter += 1
   end
-  even_arr    
+  puts even_arr    
 
 end
